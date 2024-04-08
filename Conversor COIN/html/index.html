@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Coin</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="app-details">
+            <img src="../assets/btc2.jpg" class="app-icon">
+            <h1 class="app-title">Currency Convert</h1>
+        </div>
+
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" value="100">
+    <div class="dropdowns">
+        <select id="from-currency-select"><select>
+        <select id="to-currency-select"></select>
+    </div>
+    <button id="convert-button">Convert</button>
+    <p id="result"></p>
+        </div>
+
+    <script src="../js/currency-codes.js"></script>
+    <script src="../js/api-key.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
